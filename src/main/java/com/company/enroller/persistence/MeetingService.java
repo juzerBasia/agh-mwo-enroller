@@ -10,7 +10,7 @@ import com.company.enroller.model.Meeting;
 
 @Component("meetingService")
 public class MeetingService {
-
+//tutaj jetst recznie napisany service ale spring ma automatyczne servisy
 	DatabaseConnector connector;
 
 	public MeetingService() {
