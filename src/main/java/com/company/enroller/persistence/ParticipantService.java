@@ -44,4 +44,11 @@ public class ParticipantService {
 		connector.getSession().save(participant);
 		transaction.commit();
 	}
+
+	public void update(Participant foundParticipant) {
+		Transaction transaction=connector.getSession().beginTransaction();
+		connector.getSession().merge(foundParticipant);
+		transaction.commit();
+
+	}
 }
