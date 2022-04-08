@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import com.company.enroller.model.Participant;
 import com.company.enroller.persistence.ParticipantService;
 
-//http://localhost:80080/participants //tutj projektujemy npoint, jak dopiszemy na przodzie GET to wiemy ze chcemy zeby pobrac wszystkich
+//http://localhost:80080/participants //tutaj projektujemy npoint, jak dopiszemy na przodzie GET to wiemy ze chcemy zeby pobrac wszystkich
 
 @RestController
 @RequestMapping("/participants")
